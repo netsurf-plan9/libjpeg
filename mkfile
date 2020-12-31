@@ -1,0 +1,69 @@
+</$objtype/mkfile
+
+LIB=libjpeg.$O.a
+
+OBJ=\
+	jaricom.$O\
+	jcapimin.$O\
+	jcapistd.$O\
+	jcarith.$O\
+	jccoefct.$O\
+	jccolor.$O\
+	jcdctmgr.$O\
+	jchuff.$O\
+	jcinit.$O\
+	jcmainct.$O\
+	jcmarker.$O\
+	jcmaster.$O\
+	jcomapi.$O\
+	jcparam.$O\
+	jcprepct.$O\
+	jcsample.$O\
+	jctrans.$O\
+	jdapimin.$O\
+	jdapistd.$O\
+	jdarith.$O\
+	jdatadst.$O\
+	jdatasrc.$O\
+	jdcoefct.$O\
+	jdcolor.$O\
+	jddctmgr.$O\
+	jdhuff.$O\
+	jdinput.$O\
+	jdmainct.$O\
+	jdmarker.$O\
+	jdmaster.$O\
+	jdmerge.$O\
+	jdpostct.$O\
+	jdsample.$O\
+	jdtrans.$O\
+	jerror.$O\
+	jfdctflt.$O\
+	jfdctfst.$O\
+	jfdctint.$O\
+	jidctflt.$O\
+	jidctfst.$O\
+	jidctint.$O\
+	jquant1.$O\
+	jquant2.$O\
+	jutils.$O\
+	jmemmgr.$O\
+	jmemnobs.$O
+
+HFILES=\
+	cderror.h\
+	cdjpeg.h\
+	jconfig.h\
+	jdct.h\
+	jerror.h\
+	jinclude.h\
+	jmemsys.h\
+	jmorecfg.h\
+	jpegint.h\
+	jpeglib.h\
+	jversion.h\
+	transupp.h
+
+<../nsport.mk
+
+<../nsportlib.mk
